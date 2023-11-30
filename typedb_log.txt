@@ -1,0 +1,255 @@
+22:27:44,138 stixorm.module.initialise INFO ========================== Database initialisation ============================
+22:27:44,287 stixorm.module.initialise INFO typedb response ->
+ConceptMap { map: {"mark": Entity(Entity { iid: ID[0x826e80417fffffffffffffff], type_: EntityType { label: "tlp-white", is_root: false, is_abstract: false }, is_inferred: false }), "_1": Attribute(Attribute { iid: ID[0x836f80cf2800386d61726b696e672d646566696e6974696f6e2d2d36313366326532362d343037642d343863372d396563612d623865393164663939646339], type_: AttributeType { label: "stix-id", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"), is_inferred: false }), "_3": Attribute(Attribute { iid: ID[0x836f80b03280000159b92c3800], type_: AttributeType { label: "created", is_root: false, is_abstract: false, value_type: DateTime }, value: DateTime(2017-01-20T00:00:00), is_inferred: false }), "_0": Attribute(Attribute { iid: ID[0x836f80b62800126d61726b696e672d646566696e6974696f6e], type_: AttributeType { label: "stix-type", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition"), is_inferred: false }), "_2": Attribute(Attribute { iid: ID[0x836f8068280003322e31], type_: AttributeType { label: "spec-version", is_root: false, is_abstract: false, value_type: String }, value: String("2.1"), is_inferred: false })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } }
+22:27:44,327 stixorm.module.initialise INFO typedb response ->
+ConceptMap { map: {"_0": Attribute(Attribute { iid: ID[0x836f80b62800126d61726b696e672d646566696e6974696f6e], type_: AttributeType { label: "stix-type", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition"), is_inferred: false }), "_2": Attribute(Attribute { iid: ID[0x836f8068280003322e31], type_: AttributeType { label: "spec-version", is_root: false, is_abstract: false, value_type: String }, value: String("2.1"), is_inferred: false }), "_1": Attribute(Attribute { iid: ID[0x836f80cf2800386d61726b696e672d646566696e6974696f6e2d2d33343039386663652d383630662d343861652d386535302d656264336363356534316461], type_: AttributeType { label: "stix-id", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"), is_inferred: false }), "mark": Entity(Entity { iid: ID[0x826e80077fffffffffffffff], type_: EntityType { label: "tlp-green", is_root: false, is_abstract: false }, is_inferred: false }), "_3": Attribute(Attribute { iid: ID[0x836f80b03280000159b92c3800], type_: AttributeType { label: "created", is_root: false, is_abstract: false, value_type: DateTime }, value: DateTime(2017-01-20T00:00:00), is_inferred: false })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } }
+22:27:44,352 stixorm.module.initialise INFO typedb response ->
+ConceptMap { map: {"_2": Attribute(Attribute { iid: ID[0x836f8068280003322e31], type_: AttributeType { label: "spec-version", is_root: false, is_abstract: false, value_type: String }, value: String("2.1"), is_inferred: false }), "_3": Attribute(Attribute { iid: ID[0x836f80b03280000159b92c3800], type_: AttributeType { label: "created", is_root: false, is_abstract: false, value_type: DateTime }, value: DateTime(2017-01-20T00:00:00), is_inferred: false }), "mark": Entity(Entity { iid: ID[0x826e800f7fffffffffffffff], type_: EntityType { label: "tlp-amber", is_root: false, is_abstract: false }, is_inferred: false }), "_1": Attribute(Attribute { iid: ID[0x836f80cf2800386d61726b696e672d646566696e6974696f6e2d2d66383864333166362d343836662d343464612d623331372d303133333362646530623832], type_: AttributeType { label: "stix-id", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"), is_inferred: false }), "_0": Attribute(Attribute { iid: ID[0x836f80b62800126d61726b696e672d646566696e6974696f6e], type_: AttributeType { label: "stix-type", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition"), is_inferred: false })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } }
+22:27:44,383 stixorm.module.initialise INFO typedb response ->
+ConceptMap { map: {"_0": Attribute(Attribute { iid: ID[0x836f80b62800126d61726b696e672d646566696e6974696f6e], type_: AttributeType { label: "stix-type", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition"), is_inferred: false }), "_2": Attribute(Attribute { iid: ID[0x836f8068280003322e31], type_: AttributeType { label: "spec-version", is_root: false, is_abstract: false, value_type: String }, value: String("2.1"), is_inferred: false }), "_1": Attribute(Attribute { iid: ID[0x836f80cf2800386d61726b696e672d646566696e6974696f6e2d2d35653537633733392d333931612d346562332d623662652d376431356361393264356564], type_: AttributeType { label: "stix-id", is_root: false, is_abstract: false, value_type: String }, value: String("marking-definition--5e57c739-391a-4eb3-b6be-7d15ca92d5ed"), is_inferred: false }), "mark": Entity(Entity { iid: ID[0x826e801f7fffffffffffffff], type_: EntityType { label: "tlp-red", is_root: false, is_abstract: false }, is_inferred: false }), "_3": Attribute(Attribute { iid: ID[0x836f80b03280000159b92c3800], type_: AttributeType { label: "created", is_root: false, is_abstract: false, value_type: DateTime }, value: DateTime(2017-01-20T00:00:00), is_inferred: false })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } }
+22:27:44,435 stixorm.module.initialise INFO ===============================================================================
+
+
+22:27:44,435 stixorm.module.typedb INFO we have loaded Stix schema
+22:27:46,658 stixorm.module.typedb INFO we have loaded Stix rules
+22:27:48,242 stixorm.module.typedb INFO we have loaded ATT&CK schema
+22:27:49,511 stixorm.module.typedb INFO we have loaded os-threat schema
+22:27:49,519 stixorm.module.typedb INFO 
+##########################################################################################################################################################
+
+22:27:49,527 stixorm.module.typedb_lib.queries INFO 
+------------------------------------------------ Add Layer Query ----------------------------------------------
+
+22:27:49,527 stixorm.module.typedb_lib.queries INFO match  $marking0 isa marking-definition, has stix-id "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9";
+ $marking1 isa marking-definition, has stix-id "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da";
+ $marking2 isa marking-definition, has stix-id "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82";
+insert $indicator isa indicator,
+ has stix-type $stix-type,
+ has spec-version $spec-version,
+ has stix-id $stix-id,
+ has created $created,
+ has modified $modified,
+ has name $name,
+ has description $description,
+ has indicator-type $indicator_types0,
+ has indicator-type $indicator_types1,
+ has pattern $pattern,
+ has pattern-type $pattern-type,
+ has pattern-version $pattern-version,
+ has valid-from $valid-from;
+
+ $stix-type "indicator";
+ $spec-version "2.1";
+ $stix-id "indicator--6eada02e-961e-4b63-9a9e-561f4f0dccd7";
+ $created 2023-11-30T11:27:41.516;
+ $modified 2023-11-30T11:27:41.516;
+ $name "Suspicious Email";
+ $description "A Common Description";
+ $indicator_types0 "malicious-activity";
+ $indicator_types1 "attribution";
+ $pattern "[email-addr:value = 'evil@northkorea.nk' AND email:subject = 'Come Join Us']";
+ $pattern-type "stix";
+ $pattern-version "2.1";
+ $valid-from 2023-11-30T11:27:41.516;
+
+ $granular0 (marking:$marking0, object:$indicator, marked:$description) isa granular-marking;
+ $granular1 (marking:$marking1, object:$indicator, marked:$indicator_types0) isa granular-marking;
+ $granular2 (marking:$marking2, object:$indicator, marked:$indicator_types1) isa granular-marking;
+
+22:27:49,527 stixorm.module.typedb_lib.queries INFO 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    Add Layer Response     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+22:27:49,527 stixorm.module.typedb_lib.queries INFO insert_iterator response ->
+<map object at 0x000001B09DFB8340>
+22:27:49,668 stixorm.module.typedb_lib.queries INFO 
+
+
+22:27:49,682 stixorm.module.typedb_lib.queries INFO 
+------------------------------------------------ Add Layer Query ----------------------------------------------
+
+22:27:49,682 stixorm.module.typedb_lib.queries INFO match  $marking0 isa marking-definition, has stix-id "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da";
+ $marking1 isa marking-definition, has stix-id "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9";
+ $marking2 isa marking-definition, has stix-id "marking-definition--5e57c739-391a-4eb3-b6be-7d15ca92d5ed";
+insert $indicator isa indicator,
+ has stix-type $stix-type,
+ has spec-version $spec-version,
+ has stix-id $stix-id,
+ has created $created,
+ has modified $modified,
+ has name $name,
+ has description $description,
+ has indicator-type $indicator_types0,
+ has indicator-type $indicator_types1,
+ has pattern $pattern,
+ has pattern-type $pattern-type,
+ has pattern-version $pattern-version,
+ has valid-from $valid-from;
+
+ $stix-type "indicator";
+ $spec-version "2.1";
+ $stix-id "indicator--0fa76bb2-3ed0-4ac7-b473-c8024a3d53b7";
+ $created 2023-11-30T11:27:41.528;
+ $modified 2023-11-30T11:27:41.528;
+ $name "Nefarious Email";
+ $description "A Common Description";
+ $indicator_types0 "attribution";
+ $indicator_types1 "malicious-activity";
+ $pattern "[email-addr:value = 'nefariou@northkorea.nk' AND email:subject = 'We are coming for you']";
+ $pattern-type "stix";
+ $pattern-version "2.1";
+ $valid-from 2023-11-30T11:27:41.528;
+
+ $granular0 (marking:$marking0, object:$indicator, marked:$description) isa granular-marking;
+ $granular1 (marking:$marking1, object:$indicator, marked:$indicator_types0) isa granular-marking;
+ $granular2 (marking:$marking2, object:$indicator, marked:$indicator_types1) isa granular-marking;
+
+22:27:49,682 stixorm.module.typedb_lib.queries INFO 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    Add Layer Response     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+22:27:49,683 stixorm.module.typedb_lib.queries INFO insert_iterator response ->
+<map object at 0x000001B09DFBB0D0>
+22:27:49,709 stixorm.module.typedb_lib.queries INFO 
+
+
+22:27:49,729 stixorm.module.typedb_lib.queries INFO 
+------------------------------------------------ Add Layer Query ----------------------------------------------
+
+22:27:49,730 stixorm.module.typedb_lib.queries INFO match  $marking0 isa marking-definition, has stix-id "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da";
+insert $campaign isa campaign,
+ has stix-type $stix-type,
+ has spec-version $spec-version,
+ has stix-id $stix-id,
+ has created $created,
+ has modified $modified,
+ has name $name,
+ has description $description;
+
+ $stix-type "campaign";
+ $spec-version "2.1";
+ $stix-id "campaign--552b3989-2fed-44ee-b610-850408b468ed";
+ $created 2023-11-30T11:27:41.530;
+ $modified 2023-11-30T11:27:41.530;
+ $name "Coming For You";
+ $description "A Common Description";
+
+ $granular0 (marking:$marking0, object:$campaign, marked:$description) isa granular-marking;
+
+22:27:49,730 stixorm.module.typedb_lib.queries INFO 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    Add Layer Response     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+22:27:49,730 stixorm.module.typedb_lib.queries INFO insert_iterator response ->
+<map object at 0x000001B09DFBB0D0>
+22:27:49,788 stixorm.module.typedb_lib.queries INFO 
+
+
+22:27:50,582 stixorm.module.typedb INFO 
+##########################################################################################################################################################
+
+22:27:50,609 stixorm.module.typedb_lib.queries INFO 
+------------------------------------------------ Add Layer Query ----------------------------------------------
+
+22:27:50,611 stixorm.module.typedb_lib.queries INFO insert $file isa file,
+ has stix-type $stix-type,
+ has spec-version $spec-version,
+ has stix-id $stix-id,
+ has name $name;
+
+ $stix-type "file";
+ $spec-version "2.1";
+ $stix-id "file--e6e2690e-b193-592d-887a-6fecd3c4ec56";
+ $name "Classic Car";
+
+ $raster-image-ext isa raster-image-ext;
+
+
+ $raster-image-extension0 (file:$file, image:$raster-image-ext) isa raster-image-extension;
+
+
+
+ $EXIF-key0 isa EXIF-key;  $EXIF-key0 "Make";
+ $EXIF-key0 has EXIF-value "Alfa Romeo";
+ $EXIF-key1 isa EXIF-key;  $EXIF-key1 "Model";
+ $EXIF-key1 has EXIF-value "105GTV";
+ $EXIF-tags (image:$raster-image-ext, info: $EXIF-key0, info: $EXIF-key1) isa EXIF-tags;
+
+
+22:27:50,611 stixorm.module.typedb_lib.queries INFO 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    Add Layer Response     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+22:27:50,611 stixorm.module.typedb_lib.queries INFO insert_iterator response ->
+<map object at 0x000001B09F381DE0>
+22:27:50,638 stixorm.module.typedb_lib.queries INFO 
+
+
+22:27:50,657 stixorm.module.typedb_lib.queries INFO 
+------------------------------------------------ Add Layer Query ----------------------------------------------
+
+22:27:50,658 stixorm.module.typedb_lib.queries INFO insert $file isa file,
+ has stix-type $stix-type,
+ has spec-version $spec-version,
+ has stix-id $stix-id,
+ has name $name;
+
+ $stix-type "file";
+ $spec-version "2.1";
+ $stix-id "file--9f619e86-2f51-5f95-8582-a191133dad14";
+ $name "Dream Car";
+
+ $raster-image-ext isa raster-image-ext;
+
+
+ $raster-image-extension0 (file:$file, image:$raster-image-ext) isa raster-image-extension;
+
+
+
+ $EXIF-key0 isa EXIF-key;  $EXIF-key0 "Make";
+ $EXIF-key0 has EXIF-value "Porchse";
+ $EXIF-key1 isa EXIF-key;  $EXIF-key1 "Model";
+ $EXIF-key1 has EXIF-value "911";
+ $EXIF-tags (image:$raster-image-ext, info: $EXIF-key0, info: $EXIF-key1) isa EXIF-tags;
+
+
+22:27:50,658 stixorm.module.typedb_lib.queries INFO 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    Add Layer Response     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+22:27:50,658 stixorm.module.typedb_lib.queries INFO insert_iterator response ->
+<map object at 0x000001B09F381DE0>
+22:27:50,687 stixorm.module.typedb_lib.queries INFO 
+
+
+22:27:50,704 stixorm.module.typedb_lib.queries INFO 
+------------------------------------------------ Add Layer Query ----------------------------------------------
+
+22:27:50,705 stixorm.module.typedb_lib.queries INFO insert $file isa file,
+ has stix-type $stix-type,
+ has spec-version $spec-version,
+ has stix-id $stix-id,
+ has name $name;
+
+ $stix-type "file";
+ $spec-version "2.1";
+ $stix-id "file--b565cfc3-d1d3-5198-83c2-747dc9f22423";
+ $name "Actual Car";
+
+ $raster-image-ext isa raster-image-ext;
+
+
+ $raster-image-extension0 (file:$file, image:$raster-image-ext) isa raster-image-extension;
+
+
+
+ $EXIF-key0 isa EXIF-key;  $EXIF-key0 "Make";
+ $EXIF-key0 has EXIF-value "Morris";
+ $EXIF-key1 isa EXIF-key;  $EXIF-key1 "Model";
+ $EXIF-key1 has EXIF-value "1100";
+ $EXIF-tags (image:$raster-image-ext, info: $EXIF-key0, info: $EXIF-key1) isa EXIF-tags;
+
+
+22:27:50,705 stixorm.module.typedb_lib.queries INFO 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    Add Layer Response     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+22:27:50,705 stixorm.module.typedb_lib.queries INFO insert_iterator response ->
+<map object at 0x000001B09F381DE0>
+22:27:50,733 stixorm.module.typedb_lib.queries INFO 
+
+
